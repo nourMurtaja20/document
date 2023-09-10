@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="sidemenu">
+        <h3 class="h3_nav">Doc NAVIGATION</h3>
+        <ul>
+            <li>
+                <a class="nav_link active" href="#General">General Information</a>
+            </li>
+            <li>
+                <div>
+                    <a class="nav_link" href="#Theme">Theme Installation</a>
+                    <i id="plus" class="bx bx-plus"></i>
+                    <i id="minus" class="bx bx-minus" style="display: none"></i>
+                </div>
+                <ul id="ul_inside" class="ul_inside">
+                    <li><a class="nav_link" href="#Info">Information</a></li>
+                    <li><a class="nav_link" href="#ThemeReq">Theme Requirements</a></li>
+                    <li>
+                        <a class="nav_link" href="#Recommend">Recommended PHP Configuration Limits</a>
+                    </li>
+                    <li><a class="nav_link" href="#Install">Theme Installation</a></li>
+                    <li><a class="nav_link" href="#Plug">Plug-ins Installation</a></li>
+                    <li><a class="nav_link" href="#Demo">Demo Content</a></li>
+                </ul>
+            </li>
+            <li>
+                <div>
+                    <a class="nav_link" href="#BasicSiteSetting">Basic Site Setting</a>
+                    <i id="plus1" class="bx bx-plus"></i>
+                    <i id="minus1" class="bx bx-minus" style="display: none"></i>
+                </div>
+                <ul id="ul_inside1" class="ul_inside">
+                    <li><a class="nav_link" href="#ChangeSite">Change Site Title and Favicon</a></li>
+                    <li><a class="nav_link" href="#ChangeLogo">Change Logo</a></li>
+                    <li><a class="nav_link" href="#Setting">Setting a Home Page and Blog Page</a></li>
+                    <li><a class="nav_link" href="#CustomizeMenu">Customize Menu</a></li>
+                    <li><a class="nav_link" href="#Setup">Setup Coming Soon/Maintenance Mode</a></li>
+                </ul>
+            </li>
+            <li><a class="nav_link" href="#Header">Header Settings</a></li>
+            <li><a class="nav_link" href="#footer">footer Settings</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="btn_group">
+            <a id="decrease">A-</a>
+            <a id="defult">A</a>
+            <a id="increase">A+</a>
+        </div>
+        <label class="switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <div class="conent">
+        <section id="General">
+            <h1 class="label_header">1.General Information</h1>
+            <p class="p">
+                Thank you for choosing our theme. We hope you enjoy building your
+                project with us. It is a powerhouse of great features and powerful
+                functionalities that would take months to develop. The theme is fully
+                responsive and be rest assured your project looks absolutely stunning
+                on any types of screens
+            </p>
+            <p class="p">
+                Welcome to Iteck WordPress Theme! We would like to thank you for
+                choosing our theme - Bemo.
+            </p>
+            <p class="p">
+                It’s built with Elementor page builder. It’s fully responsive and
+                looks well. It is a modern design and high-speed performance WordPress
+                Theme. To use Bemo for Creative Agency, Creative Agency Landing,
+                Personal Portfolio,, and other needed inner or details pages
+                availability..
+            </p>
+        </section>
+        <section id="Theme">
+            <h1 class="label_header">2.Theme Installation</h1>
+            <section id="Info">
+                <h1 class="label_header">2.1 WordPress Information</h1>
+                <p class="p">
+                    For WordPress Installation you can check the Famous 5-Minutes Install
+                    here:
+                </p>
+                <p class="p">
+                    Support System:
+                    <a href="https://wordpress.org/support/article/how-to-install-wordpress/">
+                        https://wordpress.org/support/article/how-to-install-wordpress/</a>
+                </p>
+            </section>
+            <section id="ThemeReq">
+                <h1 class="label_header">2.2 Theme Requirements</h1>
+                <p class="p">
+                    To use theme, you must be running WordPress 5.0 or higher, PHP 7.0 or
+                    higher, and MySQL 5.6 or higher. We have tested it with Mac, Windows
+                    and Linux. Below is a list of items you should ensure your host can
+                    comply with.
+                </p>
+            </section>
+            <section id="Recommend">
+                <h1 class="label_header">
+                    2-3 Recommended PHP Configuration Limits
+                </h1>
+                <p class="p">
+                    White screen, demo content fails when importing, empty page content
+                    and other similar issues are all related to low PHP configuration
+                    limits. The solution is to increase the PHP limits. You can do this on
+                    your own, or contact your web host and ask them to increase those
+                    limits to a minimum as follows:
+                </p>
+                <pre><h3 class="h3_pre">            
+        max_input_vars = 3000
+        memory_limit = 128M
+        max_execution_time = 300
+        max_input_time = 300
+        upload_max_filesize = 64M
+        post_max_size = 64M
+            </h3></pre>
+            </section>
+            <section id="Install">
+                <h1 class="label_header">2.4 Theme Installation</h1>
+                <p class="p">Theme Installation via Wordpress:</p>
+                <h3 class="h3">
+                    <div class="counter">1</div> Login to your Wordpress Admin Panel.
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">2</div> Go to <span class="bg_gray">Appearance</span> → <span
+                        class="bg_gray">Themes</span> . Click the <span class="bg_gray">Add New button</span>.
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">3</div> Click on the Upload Theme button. Locate "theme.zip" and
+                    click Install Now.
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">4</div> Click on the Activate button to activate theme.
+                    Congratulations, you have now activated theme! You can now proceed
+                    with theme's Plugin Installation. image
+                </h3>
+                <figure class="figure">
+                    <img class="image" src="assets/images/add.png" alt="" />
+                    <figcaption class="figcaption">
+                        Appearance → Themes → Add New
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/upload.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/upload1.png" alt="" />
+                    <figcaption class="figcaption">
+                        Click on “Choose File” and select iteck.zip and Click on “Install
+                        Now“.
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/upload2.png" alt="" />
+                    <figcaption class="figcaption">Active Bemo Theme</figcaption>
+                </figure>
+            </section>
+            <section id="Plug">
+                <h1 class="label_header">2.5 Plug-ins Installation</h1>
+                <p class="p">
+                    All required plugins are already added in your downloaded package.
+                </p>
+                <h3 class="h3">
+                    <div class="counter">1</div> After theme installation you should be redirected to Install
+                    Required Plugins page, which shows list of plugins:
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">2</div> Now, Select all "plugins" Note - The installation process may
+                    take few minutes. Proceed further after successful installation.
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">3</div> When "All installations have been completed" appears, click
+                    on "Return to Required Plugins Installer".
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">4</div> Now, Select all plugins and choose Activate from drop down
+                    box this time.
+                </h3>
+                <figure class="figure">
+                    <img class="image" src="assets/images/install.png" alt="" />
+                    <figcaption class="figcaption">
+                        Click on the begin installing plugins link to install all the
+                        required plugins
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/install1.png" alt="" />
+                    <figcaption class="figcaption">Select all and install</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/install2.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/install3.png" alt="" />
+                    <figcaption class="figcaption">Select all and Activate</figcaption>
+                </figure>
+            </section>
+            <section id="Demo">
+                <h1 class="label_header">2.6 Demo Content</h1>
+                <p class="p">One Click Installation of Demo Data</p>
+                <p class="p">
+                    Want to build your site like the demo? You can do it by only one
+                    click! Bemo an easy solution for the demo content you saw on our
+                    preview website. Please follow the instructions below:
+                </p>
+                <p class="p">
+                    Go to <span class="bg_gray">Appearance</span> → <span class="bg_gray">Import Demo Data</span> .
+                    Then, Click on <span class="bg_gray">import</span>.
+                </p>
+                <figure class="figure">
+                    <img class="image" src="assets/images/import.png" alt="" />
+                    <figcaption class="figcaption">
+                        go to Appearance → Import Demo Data
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/import1.png" alt="" />
+                    <figcaption class="figcaption">
+                        Click on the "Import" button
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/import2.png" alt="" />
+                    <figcaption class="figcaption">
+                        Click on the "Continue &Import" button
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/import3.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/import4.png" alt="" />
+                    <figcaption class="figcaption">
+                        That's it, all done! The demo import has finished
+                    </figcaption>
+                </figure>
+                <p class="note">
+                    <strong style="color: black;">Note:</strong> Progress bar will appear while it is setting up
+                    demo
+                    data.
+                </p>
+                <p class="p">
+                    Congratulations, Now you can visit your website to see the imported
+                    data.
+                </p>
+            </section>
+        </section>
+        <section id="BasicSiteSetting">
+            <h1 class="label_header">3-BasicSiteSetting</h1>
+            <section id="ChangeSite">
+                <h1 class="label_header">
+                    3-1 Change Site Title and Favicon
+                </h1>
+                <p class="p">
+                    To change your Site title and Favicon login to wp-admin and navigate
+                    to
+                </p>
+                <p class="p"><span class="bg_gray">Dashboard</span> → <span class="bg_gray">Appearance</span> → <span
+                        class="bg_gray">Customize</span> → <span class="bg_gray">Site Identity</span></p>
+                <p class="p">and follow the following steps:</p>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change.png" alt="" />
+                    <figcaption class="figcaption">
+                        go to Dashboard → Appearance → Customize → Site Identity and change
+                        it.
+                    </figcaption>
+                </figure>
+            </section>
+            <section id="ChangeLogo">
+                <h1 class="label_header">3.2 Change Logo</h1>
+                <p class="p">To change your Site logo, login to wp-admin and go to</p>
+                <p class="p"><span class="bg_gray">Dashboard</span> → <span class="bg_gray">Appearance</span> → <span
+                        class="bg_gray">Customize</span> → <span class="bg_gray">Site Identity</span></p>
+                <p class="p">and follow the following steps:</p>
+                <figure class="figure">
+                    <img class="image" src="assets/images/ch.png" alt="" />
+                    <figcaption class="figcaption">
+                        go to Dashboard → Appearance → Customize → Site Identity and change
+                        it.
+                    </figcaption>
+                </figure>
+            </section>
+            <section id="Setting">
+                <h1 class="label_header">
+                    3-3 Setting a Home Page and Blog Page
+                </h1>
+                <p class="p">
+                    To set the home and blog page, login to wp-admin and go to
+                </p>
+                <p class="p"><span class="bg_gray">Dashboard</span> → <span class="bg_gray">Settings</span> → <span
+                        class="bg_gray">Reading</span></p>
+                <p class="p">and follow the following steps:</p>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change1.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change2.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change3.png" alt="" />
+                    <figcaption class="figcaption">
+                        Select your Home and Blog Page.
+                    </figcaption>
+                </figure>
+            </section>
+            <section id="CustomizeMenu">
+                <h1 class="label_header">3.4 Customize Menu</h1>
+                <p class="p">To set the menus, login to wp-admin and go to</p>
+                <p class="p"><span class="bg_gray">Dashboard</span> → <span class="bg_gray">Appearance</span> → <span
+                        class="bg_gray">Menus</span></p>
+                <p class="p">and follow the following steps:</p>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change4.png" alt="" />
+                </figure>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change5.png" alt="" />
+                    <figcaption class="figcaption">Customize the menu</figcaption>
+                </figure>
+            </section>
+            <section id="Setup">
+                <h1 class="label_header">
+                    3.5 Setup Coming Soon/Maintenance Mode
+                </h1>
+                <p class="p">Turn on Coming Soon/Maintenance Mode</p>
+                <p class="p">and follow the following steps:</p>
+                <p class="p">
+                    WordPress Maintenance Mode: What Is It and How to Use It.
+                    <a href="#https://elementor.com/blog/wordpress-maintenance-mode/">
+                        https://elementor.com/blog/wordpress-maintenance-mode/</a>
+                </p>
+                <h3 class="h3">
+                    <div class="counter">1</div> Get back to the WordPress Dashboard and navigate to Elementor -
+                    Tools - Maintenance Mode
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">2</div> Choose between Coming Soon and Maintenance Mode
+                </h3>
+                <h3 class="h3">
+                    <div class="counter">3</div> Pick the template for the Coming Soon Mode. Template name
+                    "Coming Soon"
+                </h3>
+                <figure class="figure">
+                    <img class="image" src="assets/images/change6.png" alt="" />
+                    <figcaption class="figcaption">
+                        Elementor → Tools → Maintenance Mode
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+        <section id="Header">
+            <h1 class="label_header">4.Header Settings</h1>
+            <p class="p">
+                The header was created using the Elementor Header & Footer Builder
+                plugin
+            </p>
+            <figure class="figure">
+                <img class="image" src="assets/images/header.png" alt="" />
+            </figure>
+            <figure class="figure">
+                <img class="image" src="assets/images/header1.png" alt="" />
+            </figure>
+        </section>
+        <br>
+        <section id="footer">
+            <h1 class="label_header">5.footer Settings</h1>
+            <p class="p">
+                The footer was created using the Elementor Header & Footer Builder
+                plugin
+            </p>
+            <figure class="figure">
+                <img class="image" src="assets/images/footer.png" alt="" />
+            </figure>
+        </section>
+        <p class="p">Thank you for purchasing our theme</p>
+        <p class="p">Welcome and congratulations on being our premium item owner.</p>
+        <p class="p">Congratulations, your websites is set to launch. If you have any questions or have a query, or
+            simply wish to give us a
+            suggestion or two, please reach us at our support portal (----)</p>
+        <footer>
+            <h3>copyright Bemo design 2023</h3>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
